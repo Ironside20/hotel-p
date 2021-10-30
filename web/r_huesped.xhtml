@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <h:head>
+        <title>Facelet Title</title>
+    </h:head>
+    <h:body>
+        <h:panelGrid columns="3">
+            <h:outputLabel value = "Ingrese Id habitación "/>
+                <h:inputText id = "hab" value="#" required="true" requiredMessage="">
+                </h:inputText>
+                <h:message for="ci"/>
+                <h:outputLabel value = "Ingrese Asignación "/>
+                <h:inputText id = "asi" value="#" required="true" requiredMessage=""/>
+                <h:message for="nom"/>
+                <h:outputLabel value = "tipo"/>
+                <h:inputText id = "tip" value="#" required="true" requiredMessage=""/>
+                <h:message for="ape"/>
+                <h:outputLabel value = "Reserva: "/>
+                <h:inputText id = "res" value="#" required="true" requiredMessage=""/>
+                <h:message for="dir"/>
+                <h:outputLabel value = "Costo"/>
+                <h:inputText id = "cost" value="#" required="true"/>
+                <h:message for="edad"/>
+                <h:outputLabel value = "Estado Reserva"/>
+                <h:inputText id = "esta" value="#" required="true"/>
+                <br/>
+                <h:outputLabel value = "Fecha Imgreso"/>
+                <h:inputText id = "esta" value="#" required="true"/>
+                <br/>
+                <h:outputLabel value = "Fecha Salida"/>
+                <h:inputText id = "esta" value="#" required="true"/>    
+    </h:panelGrid>
+        </h:body>
+        
+</html>
+
